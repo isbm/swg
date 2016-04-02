@@ -7,7 +7,7 @@ for x in range(10):
     address = place.Address('Erlangen', 'Scheissstrasse', x)
     contact = place.Contact('123-123-123', 'bla@google.com', 'foobar', 'N/A')
     info = place.Info(700, rooms=2, sqm=50, day=16, month=5, memo='some free text here, e.g. your mama is fat!')
-    apartment = place.Apartment(address=address, contact=contact, info=info)
+    apartment = place.Apartment(address=address, contact=contact, info=info, rating=3)
     places.add_apartment(apartment)
 places.commit()
 
