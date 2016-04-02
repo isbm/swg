@@ -1,0 +1,21 @@
+- address:
+    city: Nuernberg
+    street: blah
+    housenumber: 1
+
+- contact:
+    phone: 13-13-13
+    email: bleh@google.com
+    nickname: hans
+    person_name: Hanz Schager
+
+- info:
+    price: 500
+    rooms: 2
+    sqm: 30
+    day: 5
+    month: 4
+    memo: foobar
+
+- apartment:
+    rating: 4
